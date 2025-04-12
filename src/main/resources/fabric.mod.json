@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "tool-cascade",
+	"version": "${version}",
+	"name": "Tool Cascade",
+	"description": "This mod replaces tools / blocks when your hands become empty to another of the same type.",
+	"authors": [
+		"Tor-Arne Sandstrak"
+	],
+	"contact": {
+		"homepage": "https://projects.tor-arne.com/tool-cascade",
+		"sources": "https://github.com/Thaoh/Tool-Cascade"
+	},
+	"license": "MIT",
+	"icon": "assets/tool-cascade/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.torarne.ToolCascadeClient"
+		],
+		"modmenu": [
+			"com.torarne.ToolCascadeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": ">=1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
